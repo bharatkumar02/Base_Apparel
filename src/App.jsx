@@ -30,7 +30,7 @@ function App() {
   return (
     <>
       <div className="bg-bgPattern pb-20 w-full bg-no-repeat bg-cover bg-center lg:flex lg:items-start lg:pb-0 lg:bg-none">
-        <div className="w-full lg:px-28 lg:py-20 lg:w-[60%] lg:bg-bgPattern lg:h-screen xl:w-[65%] bg-center bg-cover">
+        <div className="w-full lg:px-28 lg:py-20 lg:w-[60%] lg:bg-bgPattern lg:h-screen bg-center bg-cover">
           <header className="p-7 py-5 w-full ">
             <img src={logo} alt="logo" className="w-1/3 lg:w-1/4" />
           </header>
@@ -104,7 +104,7 @@ function App() {
           </main>
         </div>
 
-        <div className="w-[40%] hidden lg:block h-screen">
+        <div className="xl:w-[45%] lg:w-[50%]  hidden lg:block h-screen">
           <img src={largeImage} alt="Desktop_Image" className="w-full h-full" />
         </div>
       </div>
